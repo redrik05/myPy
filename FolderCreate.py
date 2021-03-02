@@ -14,3 +14,6 @@ new_dir_name = r'NewDirectory2'
 overwrite = True
 
 folder_create(parent_dir_path, new_dir_name, overwrite)
+
+# Не предусмотрен сценарий, когда директория уже существует и переменная overwrite=True
+# В таком случае будет выбрашена ошибка, в то время как ожидается, что директория будет перезаписана.

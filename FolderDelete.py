@@ -13,4 +13,8 @@ def folder_delete(arg_dir_path, arg_overwrite):
 dir_path = r'C:\Users\Багаудин\Desktop\Action\FileCreateNew\NewDir'
 overwrite = True
 
+# Код не отработал. Забыл переименовать переменные?
 folder_delete(_dir_path, _overwrite)
+
+# Требуется доработка
+# По тех. заданию требовалось удалить директорию, независимо от того, пуста она или нет
