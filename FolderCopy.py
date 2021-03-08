@@ -1,4 +1,3 @@
-# Всё супер
 import os
 import shutil
 
@@ -12,7 +11,7 @@ def folder_copy(arg_folder_path, arg_destination_path, arg_new_directory_name, a
 
 folder_path = r'C:\Users\Багаудин\Desktop\Action\FileCreate'
 destination_path = r'C:\Users\Багаудин\Desktop\Action\FileCreateNew'
-new_directory_name = r'NewDir133'
+new_directory_name = r'NewDir13355'
 overwrite = True
 
 folder_copy(folder_path, destination_path, new_directory_name, overwrite)

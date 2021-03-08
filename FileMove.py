@@ -4,9 +4,8 @@ import shutil
 
 def file_move(arg_source_path, arg_dest_dir_path, arg_new_file_name, arg_overwrite):
     new_file_path = os.path.join(arg_dest_dir_path, arg_new_file_name)
-    if os.path.exists(new_file_path) and not arg_overwrite:
+    if os.path.exists(new_file_path) != arg_overwrite:
         return
-    # Респект что использовал shutil
     shutil.move(arg_source_path, new_file_path)
 
 
