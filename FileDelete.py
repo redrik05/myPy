@@ -3,7 +3,7 @@ import os
 
 def file_delete(arg_file_path):
     os.remove(arg_file_path)
-    pass
+    
     # Тут не нужно использовать pass.
     # pass используют обычно  в качестве заглушки у функции.
     # Например:
