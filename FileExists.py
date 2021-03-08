@@ -3,7 +3,7 @@ import os
 
 def file_exists(arg_path_file):
     x = os.path.exists(arg_path_file)
-    print(x)
+    return x
     # По техническому заданию экшен должен возвращать значение.
     # А не выводить его на печать
     # Пример:
